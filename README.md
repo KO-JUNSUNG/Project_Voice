@@ -35,8 +35,10 @@
 - WSL2: Ubuntu 22.04 LTS
 
 - Python>=링링링크58 
-링크5 GPU: Geforce링크5X 3080ti
-링크5 CPU: AMD Ryz링크5 7 5800X 8-Core Processor
+
+- GPU: Geforce링크5X 3080ti
+
+- CPU: AMD Ryz링크5 7 5800X 8-Core Processor
 
 - RAM == 64.0GB
 
@@ -56,8 +58,10 @@
 
 2. 입력란에 텍스트를 입력하고 '음성 합성' 버튼을 클릭합니다.
 
-링크3 몇 초 후 오디오 파일이 생성됩니다. 사이트에서 직접 재생하거나 Download Audio 버튼을 클릭하여 파일을 다운로드링링크5다.
-링크5 예제링크5![웹사이트 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIYsVf%2Fbtr5HqfTkAN%2FWUXR42i04z27ZGRgO7jks0%2Fimg.png)
+3. 몇 초 후 오디오 파일이 생성됩니다. 사이트에서 직접 재생하거나 Download Audio 버튼을 클릭하여 파일을 다운로드합니다.
+
+## 예제
+![웹사이트 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIYsVf%2Fbtr5HqfTkAN%2FWUXR42i04z27ZGRgO7jks0%2Fimg.png)
 
 
 
