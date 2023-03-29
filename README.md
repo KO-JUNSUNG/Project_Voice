@@ -34,11 +34,9 @@
 
 - WSL2: Ubuntu 22.04 LTS
 
-- Python>=3.8 
-
-- GPU: GeforceRTX 3080ti
-
-- CPU: AMD Ryzen 7 5800X 8-Core Processor
+- Python>=링링링크58 
+링크5 GPU: Geforce링크5X 3080ti
+링크5 CPU: AMD Ryz링크5 7 5800X 8-Core Processor
 
 - RAM == 64.0GB
 
@@ -58,13 +56,8 @@
 
 2. 입력란에 텍스트를 입력하고 '음성 합성' 버튼을 클릭합니다.
 
-3. 몇 초 후 오디오 파일이 생성됩니다. 사이트에서 직접 재생하거나 Download Audio 버튼을 클릭하여 파일을 다운로드합니다.
-
-
-# 예제
-
-
-![웹사이트 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIYsVf%2Fbtr5HqfTkAN%2FWUXR42i04z27ZGRgO7jks0%2Fimg.png)
+링크3 몇 초 후 오디오 파일이 생성됩니다. 사이트에서 직접 재생하거나 Download Audio 버튼을 클릭하여 파일을 다운로드링링크5다.
+링크5 예제링크5![웹사이트 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIYsVf%2Fbtr5HqfTkAN%2FWUXR42i04z27ZGRgO7jks0%2Fimg.png)
 
 
 
@@ -76,12 +69,12 @@
 
 # 참조한 레퍼런스
 
-- [1.](https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers)
-- [2.](https://joungheekim.github.io/2021/04/02/code-review/)
-- [3.](https://github.com/ttop32/coqui_tts_korea)
-- [4.](https://github.com/hccho2/Tacotron2-Wavenet-Korean-TTS?fbclid=IwAR3oyEWkgYuG2LLhQPZfkkFKnFJRNyGDA2Za1C_DYpmYvfRf8WQaGDH-xNA)
-- [5.](https://pyrasis.com/tts/2023/02/05/FastSpeech2-My-Voice-TTS#%ED%95%84%EC%88%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%5D)
-- [6.](https://github.com/pyrasis/Korean-FastSpeech2-Pytorch)
-- [7.](https://github.com/TensorSpeech/TensorFlowTTS)
-- [8.](https://liusongxiang.github.io/diffsvc/)
-- [9.](https://github.com/NVIDIA/tacotron2)
+- [링크1](https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers)
+- [링크2](https://joungheekim.github.io/2021/04/02/code-review/)
+- [링크3](https://github.com/ttop32/coqui_tts_korea)
+- [링크4](https://github.com/hccho2/Tacotron2-Wavenet-Korean-TTS?fbclid=IwAR3oyEWkgYuG2LLhQPZfkkFKnFJRNyGDA2Za1C_DYpmYvfRf8WQaGDH-xNA)
+- [링크5](https://pyrasis.com/tts/2023/02/05/FastSpeech2-My-Voice-TTS#%ED%95%84%EC%88%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%5D)
+- [링크6](https://github.com/pyrasis/Korean-FastSpeech2-Pytorch)
+- [링크7](https://github.com/TensorSpeech/TensorFlowTTS)
+- [링크8](https://liusongxiang.github.io/diffsvc/)
+- [링크9](https://github.com/NVIDIA/tacotron2)
