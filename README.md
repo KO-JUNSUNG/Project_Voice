@@ -34,11 +34,11 @@
 
 - WSL2: Ubuntu 22.04 LTS
 
-- Python>=링링링크58 
+- Python>=3.8 
 
-- GPU: Geforce링크5X 3080ti
+- GPU: GeforceRTX 3080ti
 
-- CPU: AMD Ryz링크5 7 5800X 8-Core Processor
+- CPU: AMD Ryzen 7 5800X 8-Core Processor
 
 - RAM == 64.0GB
 
