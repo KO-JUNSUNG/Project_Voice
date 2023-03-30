@@ -79,6 +79,10 @@
 ![웹사이트 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbIYsVf%2Fbtr5HqfTkAN%2FWUXR42i04z27ZGRgO7jks0%2Fimg.png)
 
 
+## 아쉬웠던 점
+
+- HIFI GAN 은 최근 Diffusion SVC(Deep voice) 에 사용될 만큼 안정적이고 더 좋은, 성능을 인정 받은 Vocoder 입니다. 그러나 리소스적인 측면과 시간적 측면 탓에 사용하지 못했던 점이 아쉽습니다. 다음에 혹시 기회가 있다면 HIFI GAN 을 사용하여 모델을 개선하고 싶습니다. 
+
 
 # 개발자 정보
 
