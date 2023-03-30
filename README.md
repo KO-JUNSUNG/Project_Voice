@@ -24,6 +24,10 @@
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDQxhB%2Fbtr6YP5RZPv%2FcDqZThEOWeen8NsyRa6240%2Fimg.png)
 
 
+- alignment는 입력 텍스트와 출력 음성의 길이가 다른 경우, 어떤 입력 텍스트에 대해 어떤 출력 음성이 생성되었는지를 나타내는 그래프입니다. 
+- decoder timestep 이 진행됨에 따라 alignment가 선형적으로 상승하는 것은 정상적으로 학습이 진행되고 있다는 표시입니다. 
+- 아래의 predicted Mel-after-Spectogram 은 생성된 음성의 음파 형태입니다. 음성이 생성되지 않았을 경우 파동 형태가 나타나지 않습니다.
+
 # 설치
 
 ## Prerequisites
