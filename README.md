@@ -21,6 +21,8 @@
 
 - 직접 제작한 TacoTron2 + WaveGlow 모델에 비해 더 적은 리소스를 사용하며 자연스러운 음성을 송출합니다. 최종적으로 저희가 직접 제작한 모델을 사용하지 않고 외부 모델을 사용한 이유이기도 합니다.
 
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDQxhB%2Fbtr6YP5RZPv%2FcDqZThEOWeen8NsyRa6240%2Fimg.png)
+
 
 # 설치
 
