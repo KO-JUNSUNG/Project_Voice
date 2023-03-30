@@ -7,13 +7,22 @@
 
     - 본 프로젝트에서는 TensorflowTTS model 을 이용하여 OCR 단계에서 읽어온 텍스트를 읽어주는 것을 목표로 합니다. 
 
-    - 본 프로젝트에서 사용하는 TensorflowTTS model 은 TacoTron2 를 기반으로 만들어진 TTS 프로그램으로, decoder 로는 mel-GAN 을 사용하고 있습니다. 
+    - 본 프로젝트에서 사용하는 TensorflowTTS model 은 FastSpeech2 를 기반으로 만들어진 TTS 프로그램으로, decoder 로는 mel-GAN 을 사용하고 있습니다. 
 
-    - TensorflowTTS 가 사용하는 라이브러리들이 현재 환경과 맞지 않는 경우가 많고, 이에 따라 Tensorflow 팀이 제공하는 기존의 Dockerfile 이 무력화되었습니다. 
+    - TensorflowTTS 가 사용하는 라이브러리들이 현재 환경과 맞지 않는 경우가 많고, 이런 종속성 문제로 Tensorflow 팀이 제공하는 기존의 Dockerfile 이 무력화되었습니다. 
 
     - 따라서 이를 실행하기 위해 준비과정이 너무 번거로웠기 때문에 새롭게 이를 사용자 여러분이 Dockerfile 과 app 만으로 간단하게 실행할 수 있도록 조정하는 것을 목표로 했습니다.
 
-# 프로젝트 설치
+# 모델 설명
+
+- melspectogram 을 생성하는 Fastspeech2 는 FastSpeech에 비해 더 경량화된 모델이면서도 분산 어댑터의 숨겨진 시퀀스를 사용하여 더 나은 성능을 보입니다.
+
+- 또한 Vocoder 로 MultiBand mel-GAN 을 사용하였습니다. 기존 Vocoder 로 사용되는 Mel-GAN 보다 수용영역이 두 배 이상 확장되어 더 빠르게 WaveForm 을 생성하고 더 높은 음질을 만듭니다.
+
+- 직접 제작한 TacoTron2 + WaveGlow 모델에 비해 더 적은 리소스를 사용하며 자연스러운 음성을 송출합니다. 최종적으로 저희가 직접 제작한 모델을 사용하지 않고 외부 모델을 사용한 이유이기도 합니다.
+
+
+# 설치
 
 ## Prerequisites
 프로젝트를 실행하기 위해서는 다음과 같은 사전 설치가 필요합니다.
@@ -66,9 +75,15 @@
 
 
 # 개발자 정보
+
+### 팀장
 - 이름: 고준성
 - 이메일: rhwnstjd2004@gmail.com
 - 깃허브: [링크](https://github.com/KO-JUNSUNG)
+
+### 팀원
+- 이름: 김수윤
+- 이메일: a01076624665@gmail.com
 
 
 # 참조한 레퍼런스
