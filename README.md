@@ -7,7 +7,7 @@
 
     - 본 프로젝트에서는 TensorflowTTS model 을 이용하여 OCR 단계에서 읽어온 텍스트를 읽어주는 것을 목표로 합니다. 
 
-    - 본 프로젝트에서 사용하는 TensorflowTTS model 은 FastSpeech2 를 기반으로 만들어진 TTS 프로그램으로, decoder 로는 mel-GAN 을 사용하고 있습니다. 
+    - 본 프로젝트에서 사용하는 TensorflowTTS model 은 FastSpeech2 를 기반으로 만들어진 TTS 프로그램으로, vocoder 로는 MB mel-GAN 을 사용하고 있습니다. 
 
     - TensorflowTTS 가 사용하는 라이브러리들이 현재 환경과 맞지 않는 경우가 많고, 이런 종속성 문제로 Tensorflow 팀이 제공하는 기존의 Dockerfile 이 무력화되었습니다. 
 
