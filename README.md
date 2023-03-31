@@ -4,6 +4,8 @@
 
 - 프로젝트 설명: 
     - 본 프로젝트는 시각장애인을 위한 고지서 읽어주기 서비스 우리 알리미 'SORI' 의 하위 프로젝트입니다.
+    
+    - [SORI 프로젝트](https://github.com/SungZoo95/testcam/tree/End)
 
     - 본 프로젝트에서는 TensorflowTTS model 을 이용하여 OCR 단계에서 읽어온 텍스트를 읽어주는 것을 목표로 합니다. 
 
